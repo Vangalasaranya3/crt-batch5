@@ -1,0 +1,14 @@
+a=[90,0,8,7]
+print(max(a))
+print(min(a))
+print(sum(a))
+ab=[-0,-99,99,231,86]
+x=sorted(ab)
+print(x)
+ab.append(10)
+print(ab)
+print(ab.count(4))
+ab.insert(86,100)
+print(ab)
+ab.remove(0)
+print(ab)
